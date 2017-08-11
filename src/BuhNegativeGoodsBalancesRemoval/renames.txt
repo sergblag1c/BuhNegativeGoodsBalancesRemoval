@@ -1,4 +1,6 @@
-﻿c2a57bd3-bc80-409f-8422-f45f417b355b-->und\c2a57bd3-bc80-409f-8422-f45f417b355b
+﻿5b7e2061-7ebf-48a4-9757-ffdc2e4f2515.0\info-->und\5b7e2061-7ebf-48a4-9757-ffdc2e4f2515.0\info
+5b7e2061-7ebf-48a4-9757-ffdc2e4f2515.0\text-->ObjectModule.bsl
+c2a57bd3-bc80-409f-8422-f45f417b355b-->und\c2a57bd3-bc80-409f-8422-f45f417b355b
 copyinfo-->und\copyinfo
 root-->und\root
 version-->und\version
