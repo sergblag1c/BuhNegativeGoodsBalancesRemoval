@@ -56,7 +56,7 @@ Procedure FillAtServer()
 	|	Period AS BalanceDate,
 	|	ExtDimension1 AS Good,
 	|	КоличествоClosingBalance AS InStock,
-	|	СуммаClosingBalance / CASE WHEN КоличествоClosingBalance = 0 THEN 1 ELSE КоличествоClosingBalance END AS Price
+	|	(СуммаClosingBalance / CASE WHEN КоличествоClosingBalance = 0 THEN 1 ELSE КоличествоClosingBalance END) * (1 + &ExtraCharge / 100) AS Price
 	|ИЗ
 	|	AccountingRegister.Хозрасчетный.BalanceAndTurnovers(
 	|		,
